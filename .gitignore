@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Data files - keep directories but ignore contents
+data/processed/*.txt
+data/processed/*.pkl
+data/chunks/*.pkl
+data/chunks/*.txt
+data/embeddings/*.pkl
+data/embeddings/*.txt
+data/raw/*.pdf
+!data/raw/sample.pdf
+
+# Database files
+database/faiss/*.faiss
+database/metadata/*.pkl
+database/metadata/*.txt
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE configurations
+.vscode/settings.json
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
